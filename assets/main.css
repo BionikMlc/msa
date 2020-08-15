@@ -1,0 +1,149 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.header { 
+    background: url(./img/clouds.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    color: #fff;
+}
+
+.header .text-box { 
+    background: #302f2f4b;
+}
+
+
+.header-title {
+    font-size: 8.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header-subtitle {
+    font-size: 2.8rem;
+    text-transform: capitalize;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #302f2f9d;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header{
+    font-size: 5.5rem;
+    color: #fff;
+    text-align: center;
+
+
+}
+.section-text {
+    font-size: 2.5rem;
+    color: #fff;
+    max-width: 600px;
+    text-align: center;
+}
+
+.cta {
+    margin-top: 40em ;
+}
+
+.btn {
+    font-size: 1.8rem;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 1em;
+    background: blue;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-default {
+    background: #2864AE;
+}
+
+.btn-dark {
+    background: #212f40a9;
+}
+
+.tech-section {
+    height: 100vh;
+    background: url(./img/rocket.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+
+ 
+}
+
+.new-life-section {
+    height: 100vh;
+    background: url(./img/city.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+.travel-with-us-section {
+    height: 100vh;
+    background: url(./img/stars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+.footer{
+    font-size: 2rem;
+    height: 60px;
+    background: #212F40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    color: #fff;
+    margin-top: .5em;
+    width: 100%;
+    
+}
+label {
+    width: 60%;
+    align-self: center;
+    margin: .5em;
+    }
+
+input{
+    border-radius: 5px;
+    padding: .8em 1.5em;
+    margin: .5em 0;
+    width: 60%;
+    align-self: center;
+
+}
+
+button {
+    margin: 1em;
+    width: 60%;
+    align-self: center;
+}
+
+.margin-left-small{
+    margin-left: 1em;
+}
